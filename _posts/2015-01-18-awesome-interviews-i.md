@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Killing it in Technical Interviews: One Helpful Tip
+title:  Having Awesome Technical Interview: One Helpful Tip
 date:   2015-01-18
 author: "Daniel Tsui"
 tags:
