@@ -10,8 +10,8 @@ relative_permalinks: true
 
 # Setup
 title:               Daniel Tsui
-tagline:             ''
-description:         'Software Engineer in SF. \n From Vancouver, Canada. Hacker in Residence at <a href="www.hackreactor.com">Hack Reactor</a>'
+tagline:             'Your mind is software. Program it.'
+description:         'Software Engineer in SF. From Vancouver, Canada. Hacker in Residence at <a href="//hackreactor.com">Hack Reactor</a>'
 url:                 http://sdtsui.com
 baseurl:             /
 paginate:            4
