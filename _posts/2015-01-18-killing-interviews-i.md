@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Killing it in Technical Interviews: One Helpful Tip
-date:   2014-11-09
+date:   2015-01-18
 author: "Daniel Tsui"
 tags:
 - t1
