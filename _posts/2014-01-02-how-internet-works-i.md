@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Interview Questions: What happens when you go to google.com in your browser? (Part I)
-date:   2014-01-02
+title: Interview Questions - What happens when you go to google.com in your browser? (Part I)
+date:   2015-01-02
 author: "Daniel Tsui"
 tags:
 - t1
