@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Interview Questions - What happens when you go to google.com in your browser? (Part I)
-date:   2015-01-02
+date:   2014-12-30
 author: "Daniel Tsui"
 tags:
-- t1
-- t2
+- interviews
+- common questiosn
 ---
 
 This was written in an extreme blogging session.

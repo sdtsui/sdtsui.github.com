@@ -4,8 +4,8 @@ title:  Interview Questions - What happens when you go to google.com in your bro
 date:   2013-12-31
 author: "Daniel Tsui"
 tags:
-- t1
-- t2
+- interviews
+- common questiosn
 ---
 
 Welcome to “What happens…” Part II: HTTP Requests Continued, and HTTPS

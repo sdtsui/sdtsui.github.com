@@ -3,8 +3,9 @@ layout: post
 title: MVC One-Line Takeaways
 author: "Daniel Tsui"
 tags:
-- t1
-- t2
+- marcus philips
+- fred zirdung
+- hack reactor
 ---
 “Models are to truth as views are to perspectives.”
 -Marcus Philips

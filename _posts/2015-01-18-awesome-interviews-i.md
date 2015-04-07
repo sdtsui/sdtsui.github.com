@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  Having Awesome Technical Interview: One Helpful Tip
+title:  Awesome Technical Interviews: A Tip
 date:   2015-01-18
 author: "Daniel Tsui"
 tags:
-- t1
-- t2
+- interviews
+- whiteboarding
+- soft skills
 ---
 
 Whiteboarding is different from solving toy problems in a number of ways.
@@ -19,5 +20,4 @@ Think of it like a conversation.
 Imagine your interviewer is an old friend, or new coworker, and you are casually exploring a problem together. Do this instead of framing the experience as adversarial, where the interviewer is examining you, the prospective engineer, for defects. It takes the pressure off, but much more importantly, it demonstrates that you are capable of communicating effectively in a normal work environment. This affects your body language, tonality, and general sense of ease throughout the technical interview. It also allows you to respond with grace to mistakes and unexpected nuances of the problem.
 
 That’s all I have for now.
-
-In future parts, I will explore other aspects of technical interviews.
+Good luck in your technical interviews!
