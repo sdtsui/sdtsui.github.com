@@ -11,7 +11,7 @@ relative_permalinks: true
 # Setup
 title:               Daniel Tsui
 tagline:             'Your mind is software. Program it.'
-description:         'Software Engineer in SF. From Vancouver, Canada. Hacker in Residence at <a href="//hackreactor.com">Hack Reactor</a> Looking for remote and contract roles in the Bay Area.'
+description:         'Software Engineer in SF. From Vancouver, Canada. Hacker in Residence at <a href="//hackreactor.com">Hack Reactor</a>. Looking for remote and contract roles in the Bay Area. <a href="https://docs.google.com/document/d/1h-jVs5eguLFuC1nlh-8lQKKcySIqYv2auKePe3gXP2Y/edit">Resume</a>.'
 url:                 http://sdtsui.com
 baseurl:             /
 paginate:            4
