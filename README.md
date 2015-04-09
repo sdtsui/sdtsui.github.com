@@ -1,11 +1,6 @@
 # Daniel Tsui's Personal Website Repo
 
 
-## Author
-
-**Mark Otto**
-- <https://github.com/mdo>
-- <https://twitter.com/mdo>
 
 
 ## License
