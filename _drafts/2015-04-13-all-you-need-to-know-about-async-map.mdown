@@ -1,0 +1,116 @@
+---
+layout: post
+title:  The Whiteboard: All you need to know about Async Map
+date:   2014-04-13
+author: "Daniel Tsui"
+tags:
+- whiteboard
+- technical interview
+- async map
+---
+
+This is Part I of The Whiteboard: Asynchronous Map.  
+  
+About the whiteboard:
+* Blog series, about technical interviews and interview questions
+* <10 minutes to read
+* Aim to help junior and intermediate software engineers preparing for technical interviews
+* Readers are encouraged to follow allow, whiteboarding with a pen and legal pad, to pseudocode, to real code
+* No solution code. Don't look up answers online until you've given it a solid shot!
+
+
+##Technical Context:
+<img src="http://patrickberkeley.github.io/better-callbacks/images/async-is-so-hard.jpg" width="300" height="300" style="float:left;" />
+<img src="http://dreamtimecircles.com/wp-content/uploads/2014/07/async_all_the_things1.jpg" width="300" height="300" style="float:left;" />
+<img src="http://djebbz.github.io/async-paris-js/images/why-so-asynchronous.jpg" width="600" height="450"/>
+More (or less?) seriously,  Async Map (or asyncMap) tests an applicant's understanding of asynchronous code execution and callback functions. In today's Node.js-heavy job market, it's a good idea to at least have some familiarity with serverside JavaScript concepts. 
+
+##Here's the prompt:
+ 
+- ###_"Write a function, asyncMap, that takes in an array of asynchronous functions (let's call them tasks) and a callback. asyncMap will invoke all of the functions and store their results in an array (i.e., the 'results array'). It will then invoke the callback on the results array once all of the asynchronous functions calls complete."_###
+
+  
+
+
+
+
+##Example clarifying questions, with optional hints:  
+- **What exactly is a task?**  
+It's a good idea to get into the habit of re-explaining the problem to your interviewer, and a question like this will be good for that. Remember to supplement your explanation with visual aids using the whiteboard.
+
+- **Does the results array need to hold results in a specific order?**  
+Sometimes the order will be specified in the prompt. Usually, the intention of this question is that the results should be returned in the order that they were called, and not the order that they get returned. When you look at the solution code, how would you refactor it in order to get the array ordered as the operations complete?
+
+- **Edge cases: What happens if one of the functions doesn't complete? Do we need to perform error checking?**  
+A common application of Async Map is in server-side code. While you usually won't be asked to demonstrate node error-checking patterns, it's good to know what situations this toy problem is supposed to emulate.
+  
+
+
+
+##Continuing the conversation:
+Can you think of more example questions? It's great to keep your interviewer engaged in this area and almost never a good idea to jump straight into solving the problem without getting more detail on what you'd like to do. 
+**Don't forget to ask the standard space and time constraints questions!**
+  
+
+
+
+##Common sources of confusion:
+- **Saving in the correct order can be challenging.**  Hint: Can you somehow hold a pointer to the correct index a result is going to go?  
+- **It's easy to confuse the tasks themselves** (that get invoked sequentially) **with the final callback** (that gets called once, on the results array). Make sure you separate those concerns out in your thought process, ideally with a diagram that demonstrates how those functions are different. The key here is to understand that we NEED to give the tasks themselves a callback function, to collate the results before invoking the final callback.  
+- **Forgetting to invoke the final callback itself**, even if the results are being collated in the results array in the right order. How might you be able to tell when results array is ready to be passed to the callback (by the right number of results, perhaps)?
+
+  
+
+
+
+##Example Test Case:
+As mentioned above, we'd normally be using Async code and error checking. These timeouts simulate the effects of asynchronous function calls returning without the need for a server.
+``` 
+{% highlight javascript %}
+
+var wait500For9x9 = function(callback){
+      setTimeout(function () {
+        callback(Math.pow(9,2));
+      }, 500);
+    };
+var wait300For5x5 = function(callback){
+      setTimeout(function(){
+        callback(Math.pow(5,2));
+      }, 300);
+    };
+var wait100For1Plus1 = function(callback){
+      setTimeout(function(){
+        callback(1+1);
+      }, 100);
+    };
+
+{% endhighlight %}
+   
+
+
+
+##Example Starter Code:
+
+{% highlight javascript %}
+
+asyncMap([wait500For9x9, wait300For5x5, wait100For1Plus1], function(results){
+      console.log(results);
+      /*
+      Should log [25, 81, 2], returning the results in the order they entered the array, and not the order they returned
+      Ie, disregarding the shorter timeout.
+       */
+    }); 
+
+{% endhighlight %}
+
+Get hacking, and good luck!
+
+  
+
+
+##Still Stuck? Don't go to The Googles yet! Here's a visualization of the problem (and more hints)! 
+![](http://i.imgur.com/xY2kOiI.jpg)
+
+* Think of the results array as a central holding point for all of your tasks.
+* Pay attention to the different callbacks and what they need to do. Draw them out!
+* Remember to invoke all of the functions being passed into asyncMap!

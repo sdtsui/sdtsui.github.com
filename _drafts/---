@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Using Promises in ES6, with "
+date:   2014-11-09
+author: "Daniel Tsui"
+tags:
+- promises
+- iswear
+- clark feusier
+- async map
+---
+
+Here's a quick introductory post to Prommises. There are a ridiculous number of resources out. Promises have been 
+From weird stepchild for certain node enthusiasts, to mainstream, legit practice with its own A+ specification, Promises have come a long way.
+
+From the ES6 specification, they'll just natively be part of the language.
+"grown out of a grassroots effort" quote...
+
+First, here's how it looks now: Solving in ES5 by implementing Async Map raw.
+Here's how it would look in ES6.
+Here's an exmaple of how to do this with clark's library.
+
