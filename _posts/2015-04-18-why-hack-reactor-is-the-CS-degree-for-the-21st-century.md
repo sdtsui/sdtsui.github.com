@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Why Hack Reator is the CS Degree of the 21st Century
+title:  Why Hack Reator is the CS Degree for the 21st Century
 date:   2015-04-18
 author: "Daniel Tsui"
 tags:
