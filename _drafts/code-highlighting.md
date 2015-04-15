@@ -1,0 +1,2 @@
+{% highlight javascript %}
+{% endhighlight %}
