@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Sharing Your Data Between WebViews in a Hybrid Multi-Page Mobile App
-date:   2015-04-14
-author: "Nic Mitchell"
+title:  Sharing Your Data Between WebViews in a Hybrid Multi Page Mobile App
+date:   2015-04-15
+author: "Daniel Tsui"
 tags:
 - appgyver
 - angular
@@ -10,9 +10,9 @@ tags:
 - MPA
 - webviews
 - hybrid 
-- mobile app
-- mobile development
+- mobile
 ---
+</a>
 
 Building dynamic, single page apps (SPA) with Angular is par for the course and one of its selling points. However, when it comes to building a hybrid mobile app, the SPA model can create problems. You have to be very careful with memory management, and you miss out on the native navigation features of the device if you use Angular routing.
 

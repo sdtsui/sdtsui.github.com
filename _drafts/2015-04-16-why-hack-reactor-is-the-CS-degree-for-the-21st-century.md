@@ -8,6 +8,29 @@ tags:
 - technical interview
 - async map
 ---
+PICTURE COLLATE:
+
+Hiring Day Lecture
+<img src="http://i.imgur.com/ueibqrT.jpg" width="300" height="400"/>
+
+MVP Lecture
+http://i.imgur.com/Sm9ysqg.jpg
+
+
+Sleepy
+http://i.imgur.com/hRF3Gia.jpg
+
+
+Graduation:
+
+http://i.imgur.com/poJrsAWt.jpg
+
+
+Occulus: (unacknowledged value of simply being plugged into...)
+(your whole life is a continuous meetup)
+
+http://i.imgur.com/GiWPR0lt.jpg
+
 
 
 Draft intros...
