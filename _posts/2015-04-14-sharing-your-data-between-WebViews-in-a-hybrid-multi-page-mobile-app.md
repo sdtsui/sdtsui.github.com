@@ -291,4 +291,4 @@ We have explored a number of ways to share data between your WebViews in AppGyve
 ### About the guest poster, Nic Mitchell:
 ![Nic Mitchell](https://avatars1.githubusercontent.com/u/4238222?v=3&s=400)
 
-Nic Mitchell is a full stack software engineer with background in design. Nic is interested in building multi-device applications that leverage the virtual world of software to connect people and resources in the physical world. You can read more of Nic's musings here: [nicmitchell.com](http://nicmitchell.com). You can learn more about RE-Locate, the subject of this blog post, on the [github project page](https://github.com/nicmitchell/RE-locate).
+Nic Mitchell is a full stack software engineer with background in design. Nic is interested in building multi-device applications that leverage the virtual world of software to connect people and resources in the physical world. You can read more of Nic's musings here: [nicmitchell.com](http://nicmitchell.com). You can learn more about RE-Locate, the demo app featured on this blog post, on the [github project page](https://github.com/nicmitchell/RE-locate).
