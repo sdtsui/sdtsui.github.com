@@ -1,3 +1,5 @@
+-Agenda: 
+  -naming, how to make sure this gets used
 
 traceur repl:
 https://google.github.io/traceur-compiler/demo/repl.html#
