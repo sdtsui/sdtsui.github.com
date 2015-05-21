@@ -22,13 +22,13 @@ Package manager time (CMD + SHIFT + P).
 Download Package Time
 ![download package](http://i.imgur.com/uzh2Zs4.gif)
 
-Got your :
+Got your :  
 it blocks  
 describe blocks  
-truthy expectations
-false expectations
+truthy expectations  
+falsy expectations
 
-![demo snippets](http://g.recordit.co/ZYDGhpFdTQ.gif)
+![demo snippets](http://i.imgur.com/j5Vk9lQ.gif)
 
 cool.
 
