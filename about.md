@@ -10,4 +10,4 @@ Fluent in Javascript. Experienced with Backbone, TDD/BDD (Mocha/Chai), D3, &  ME
 As of mid 2015: Looking for remote & contract roles in the Bay Area. 
 danielt213 at gmail dot com
 
-[Resume](https://docs.google.com/document/d/1h-jVs5eguLFuC1nlh-8lQKKcySIqYv2auKePe3gXP2Y/edit)
+[Resume](https://docs.google.com/document/d/1gIY68KYKxapwI7N893JkLqhBd06-gOQTzMmz7k9D8ag/edit)

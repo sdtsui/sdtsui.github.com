@@ -10,7 +10,7 @@ relative_permalinks: true
 
 # Setup
 title:               Daniel Tsui
-tagline:             'Your mind is software. Program it.<a style="float: right; font-size:28px;" href="https://docs.google.com/document/d/1h-jVs5eguLFuC1nlh-8lQKKcySIqYv2auKePe3gXP2Y/edit"> Resume<a/>'
+tagline:             'Your mind is software. Program it.<a style="float: right; font-size:28px;" href="https://docs.google.com/document/d/1gIY68KYKxapwI7N893JkLqhBd06-gOQTzMmz7k9D8ag/edit"> Resume<a/>'
 description:         'Software Engineer in SF. From Vancouver, Canada. Hacker in Residence at <a href="//hackreactor.com">Hack Reactor</a>. Looking for remote and contract roles in the Bay Area. <a href="https://docs.google.com/document/d/1h-jVs5eguLFuC1nlh-8lQKKcySIqYv2auKePe3gXP2Y/edit">Resume</a>.'
 url:                 http://sdtsui.com
 baseurl:             /
